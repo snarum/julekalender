@@ -8,6 +8,7 @@ import Button from '@material-ui/core/Button';
 import Toolbar from '@material-ui/core/Toolbar';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
+import { Card } from '@material-ui/core';
 
 
 const App: React.FC = props => {
@@ -50,6 +51,13 @@ const App: React.FC = props => {
       </Grid>
       </Grid>
     </Toolbar>
+    <Grid container>
+      <Grid item>
+        <Card className={styles.day}>
+          24
+        </Card>
+      </Grid>
+    </Grid>
     </Container>
       );
 }
