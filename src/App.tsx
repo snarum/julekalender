@@ -5,14 +5,19 @@ import * as firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 import { firebaseConfig } from '../src/firebase.config';
-
+import Button from '@material-ui/core/Button';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
+import IconButton from '@material-ui/core/IconButton';
+import SearchIcon from '@material-ui/icons/Search';
 const App: React.FC = () => {
   var googleProvider:firebase.auth.GoogleAuthProvider;
   const [email, setEmail] = useState<string>('');
   function signIn(){
     firebase.auth().signInWithPopup(googleProvider).then((result: any)=> {
       if(result != null && result.credential != null){
-        console.log(result);
+        setEmail(result.additionalUserInfo.profile['email']);
       }            
     });
   }
@@ -29,24 +34,28 @@ const App: React.FC = () => {
     }
   },[]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <button onClick={signIn}>Sign in</button>
-    </div>
-  );
+    <Container maxWidth="lg">
+    <Toolbar >
+      <Button size="small">Subscribe</Button>
+      <Typography
+        component="h2"
+        variant="h5"
+        color="inherit"
+        align="center"
+        noWrap
+
+      >
+        Blog
+      </Typography>
+      <IconButton>
+        <SearchIcon />
+      </IconButton>
+      <Button variant="outlined" size="small">
+        Sign up
+      </Button>
+    </Toolbar>
+    </Container>
+      );
 }
 
 export default App;
