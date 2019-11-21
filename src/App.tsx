@@ -1,21 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import * as firebase from 'firebase/app';
+import styles from './App.module.css';
+import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 import { firebaseConfig } from '../src/firebase.config';
 import Button from '@material-ui/core/Button';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
-import IconButton from '@material-ui/core/IconButton';
-import SearchIcon from '@material-ui/icons/Search';
-const App: React.FC = () => {
-  var googleProvider:firebase.auth.GoogleAuthProvider;
+
+
+const App: React.FC = props => {
+  const [provider, setProvider] = useState<firebase.auth.GoogleAuthProvider>(new firebase.auth.GoogleAuthProvider());
   const [email, setEmail] = useState<string>('');
   function signIn(){
-    firebase.auth().signInWithPopup(googleProvider).then((result: any)=> {
+    firebase.auth().signInWithPopup(provider).then((result: any)=> {
       if(result != null && result.credential != null){
         setEmail(result.additionalUserInfo.profile['email']);
       }            
@@ -24,38 +23,36 @@ const App: React.FC = () => {
   useEffect(() => {
     firebase.initializeApp(firebaseConfig);
     // Update the document title using the browser API
-    googleProvider = new firebase.auth.GoogleAuthProvider();
-    googleProvider.addScope('email');
-
+    provider.addScope('email');
+    setProvider(provider);
     var user = firebase.auth().currentUser;
 
     if(!user){
       console.log(user);
     }
-  },[]);
+  },[provider]);
   return (
     <Container maxWidth="lg">
     <Toolbar >
-      <Button size="small">Subscribe</Button>
-      <Typography
-        component="h2"
-        variant="h5"
-        color="inherit"
-        align="center"
-        noWrap
+      <Grid container className={styles.toolbarButtons}>
+        <Grid item></Grid>
+        <Grid item>
 
-      >
-        Blog
-      </Typography>
-      <IconButton>
-        <SearchIcon />
-      </IconButton>
-      <Button variant="outlined" size="small">
-        Sign up
+            
+      {email === '' &&
+      <Button variant="outlined" size="small" onClick={signIn}>
+        sign in
       </Button>
+      }
+      {email !== '' && 
+      <div>{email}</div>
+      }
+      </Grid>
+      </Grid>
     </Toolbar>
     </Container>
       );
 }
+
 
 export default App;
