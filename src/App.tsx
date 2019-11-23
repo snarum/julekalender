@@ -8,16 +8,46 @@ import Button from '@material-ui/core/Button';
 import Toolbar from '@material-ui/core/Toolbar';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
-import { Card } from '@material-ui/core';
+import { Card, Dialog, DialogTitle, DialogContent, DialogContentText, TextField } from '@material-ui/core';
 
+export class Luke{
+  constructor(public spørsmål: string){};
+}
 
 const App: React.FC = props => {
   const [provider, setProvider] = useState<firebase.auth.GoogleAuthProvider>(new firebase.auth.GoogleAuthProvider());
   const [email, setEmail] = useState<string>('');
+
+
+  const [open, setOpen] = React.useState(false);
+  const [luke, setLuke] = React.useState<Luke>(new Luke(''));
+  const [currentDay, setCurrentDay] = React.useState(0);
+
+  const handleClickOpen = async (day:number) => {
+    const luke = await firebase.firestore().collection("luker").where("dag","==",day);
+    const snap = await luke.get();
+    if(snap.docs.length !== 1)
+      return;
+    setLuke(snap.docs[0].data() as Luke);
+    setCurrentDay(day);
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   function signIn(){
     firebase.auth().signInWithPopup(provider).then((result: any)=> {
       if(result != null && result.credential != null){
+        
         setEmail(result.additionalUserInfo.profile['email']);
+        const user = firebase.auth().currentUser;
+        if(user !== null){
+          user.getIdToken(true).then(x=>{
+            console.log(x);
+          });          
+        }
       }            
     });
   }
@@ -26,13 +56,13 @@ const App: React.FC = props => {
     // Update the document title using the browser API
     provider.addScope('email');
     setProvider(provider);
-    var user = firebase.auth().currentUser;
 
-    if(!user){
-      console.log(user);
-    }
   },[provider]);
+
+  const days = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+
   return (
+    <div>
     <Container maxWidth="lg">
     <Toolbar >
       <Grid container className={styles.toolbarButtons}>
@@ -52,13 +82,33 @@ const App: React.FC = props => {
       </Grid>
     </Toolbar>
     <Grid container>
-      <Grid item>
-        <Card className={styles.day}>
-          24
-        </Card>
+      <Grid item className={styles.alldays}>
+        {days.map(i=>{return(
+                  <Card className={styles.day} key={i}>
+                  <Button onClick={()=>handleClickOpen(i)}>{i}</Button>
+                  </Card>
+        )})}
+
       </Grid>
     </Grid>
     </Container>
+          <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
+          <DialogTitle id="form-dialog-title">Luke {currentDay}</DialogTitle>
+          <DialogContent>
+            <DialogContentText>
+              {luke.spørsmål}
+            </DialogContentText>
+            <TextField
+              autoFocus
+              margin="dense"
+              id="name"
+              label="Email Address"
+              type="email"
+              fullWidth
+            />
+          </DialogContent>
+        </Dialog>
+        </div>
       );
 }
 
