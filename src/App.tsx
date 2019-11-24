@@ -1,3 +1,4 @@
+import Countdown,{CountdownApi } from 'react-countdown-now';
 import React, { useState, useEffect } from 'react';
 import styles from './App.module.css';
 import firebase from 'firebase/app';
@@ -13,21 +14,35 @@ import { Card, Dialog, DialogTitle, DialogContent, DialogContentText, RadioGroup
 export class Luke {
   constructor(public spørsmål: string) { };
 }
+export class Alternativ {
+  constructor(public alternativ: number, public verdi: string){};
+}
 
 const App: React.FC = props => {
   const [provider, setProvider] = useState<firebase.auth.GoogleAuthProvider>(new firebase.auth.GoogleAuthProvider());
   const [email, setEmail] = useState<string>('');
-
+  const [alt, setAlt] = useState<Array<Alternativ>>(new Array<Alternativ>());
 
   const [open, setOpen] = React.useState(false);
   const [luke, setLuke] = React.useState<Luke>(new Luke(''));
   const [currentDay, setCurrentDay] = React.useState(0);
-  const [answer, setAnswer] = React.useState('');
+  const [answer, setAnswer] = React.useState<number>(0);
+  const [timeOfWrongAnswer, setTimeOfWrongAnswer] = React.useState<Date>();
+  const [countdownApi, setCountdownApi] = React.useState<any>();
+  const [countdownDate, setCountdownDate ] = React.useState<number>();
+
   const handleClickOpen = async (day: number) => {
     const luke = await firebase.firestore().collection("luker").where("dag", "==", day);
     const snap = await luke.get();
+    
     if (snap.docs.length !== 1)
       return;
+    const per = snap.docs[0].id;
+    const alternativer = await firebase.firestore().collection(`luker/${per}/alternativer`).get();
+    console.log(alternativer);
+    var alts = alternativer.docs.map(x=>{return x.data() as Alternativ;});
+    console.log(alts);
+    setAlt(alts);
     setLuke(snap.docs[0].data() as Luke);
     setCurrentDay(day);
     setOpen(true);
@@ -41,7 +56,7 @@ const App: React.FC = props => {
     const user = firebase.auth().currentUser;
     if (user !== null) {
       var t = await user.getIdToken();
-      fetch('http://localhost:5000/julekalender-4617e/us-central1/answer?luke=1&svar=2',
+      fetch(`http://localhost:5000/julekalender-4617e/us-central1/answer?luke=${currentDay}&svar=${answer}`,
         {
           method: 'GET',
           headers: {
@@ -51,18 +66,39 @@ const App: React.FC = props => {
           }
         }
       ).then(response => response.json())
-        .then(data => console.log(data));;
+        .then(data =>{
+          console.log(data)
+          if(data === "")
+          {
+            console.log('hei');
+            setCountdownDate(Date.now() +10000);
+            countdownApi.start();
+            setTimeOfWrongAnswer(new Date())
+          }
+        });
     }
   };
 
+  const setRef = (countdown: any) => {
+    if (countdown) {
+      setCountdownApi(countdown.getApi());
+
+    }
+  };
+  const timerComplete = () => {
+    console.log('ferdig');
+    setCountdownDate(undefined);
+  };
 
   const getDisabled = (day: number): boolean => {
     if (email === '')
       return true;
+    if(countdownDate !==undefined && countdownDate>Date.now())
+      return true;
     return false;
   }
   const handleChange = (event: { target: { value: React.SetStateAction<string>; }; }) => {
-    setAnswer(event.target.value);
+    setAnswer(parseInt(event.target.value.toString()));
   };
   function signIn() {
     firebase.auth().signInWithPopup(provider).then((result: any) => {
@@ -87,6 +123,12 @@ const App: React.FC = props => {
   }, [provider]);
 
   const days = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+
+  const getClass = (): string =>{
+    if(countdownDate === undefined || countdownDate>Date.now())
+      return styles.hidden;
+    return styles.visible;
+  }
 
   return (
     <div>
@@ -120,6 +162,9 @@ const App: React.FC = props => {
 
           </Grid>
         </Grid>
+        <div className={countdownDate === undefined?styles.hidden:''}>
+          <Countdown ref={setRef} date={countdownDate} onComplete={timerComplete}/>
+          </div>
       </Container>
       <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
         <DialogTitle id="form-dialog-title">Luke {currentDay}</DialogTitle>
@@ -128,9 +173,11 @@ const App: React.FC = props => {
             {luke.spørsmål}
           </DialogContentText>
           <RadioGroup aria-label="gender" name="gender1" value={answer} onChange={handleChange}>
-            <FormControlLabel value="female" control={<Radio />} label="Female" />
-            <FormControlLabel value="male" control={<Radio />} label="Male" />
-            <FormControlLabel value="other" control={<Radio />} label="Other" />
+            {alt.map(i=>{
+              return(
+                <FormControlLabel key={i.alternativ} value={i.alternativ} control={<Radio />} label={i.verdi} />
+              )
+            })}
           </RadioGroup>
 
 
