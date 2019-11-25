@@ -69,6 +69,9 @@ const App: React.FC = props => {
             setCountdownDate(Date.now() + 10000);
             countdownApi.start();
           }
+          else{
+            console.log(data);
+          }
         });
     }
   };

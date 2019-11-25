@@ -1,6 +1,7 @@
 import * as functions from 'firebase-functions';
 import * as adm from 'firebase-admin';
-//const cors = require('cors')({ origin: true });
+
+const baseDate = new Date(2019, 10, 25, 6, 0, 0);
 
 adm.initializeApp({
     credential: adm.credential.cert(require('../secrets/key.json'))
@@ -17,16 +18,27 @@ export const answer = functions.https.onRequest(async (req, res) => {
     else {
         console.log('her0');
         
+
+
         const p = a.replace("Bearer ", "");
         const token = await adm.auth().verifyIdToken(p);
         if (token === null || token.email === null) {
-            res.json('')
+            res.json('');
+            return;
         }
         const lukeParam = parseInt(req.query["luke"]);
         const svarParam = parseInt(req.query["svar"]);
         const svarRef = adm.firestore().collection("svar");
         const query = svarRef.where("luke", "==", lukeParam).where("hvem", "==", token.email);
         console.log('her1');
+
+        const pp = new Date(baseDate);
+        pp.setTime(pp.getTime() + ((lukeParam - 1) * 24 * 60 * 60 * 1000));
+        if (pp > new Date())
+        {
+            res.json('');
+            return;
+        };
 
         const svar = await query.get();
         console.log('her');
