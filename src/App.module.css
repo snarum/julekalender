@@ -46,3 +46,11 @@
 .visible{
   display: block;
 }
+
+.signincard{
+  padding: 10px;
+}
+
+.daybutton{
+  font-size: 30pt;
+}

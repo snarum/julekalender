@@ -12,14 +12,9 @@ export const answer = functions.https.onRequest(async (req, res) => {
     res.set('Access-Control-Allow-Headers', 'authorization,content-type')
     const a = req.headers.authorization;
     if (a === undefined || !a.startsWith("Bearer ")) {
-        console.log('her-1');
         res.json('');
     }
     else {
-        console.log('her0');
-        
-
-
         const p = a.replace("Bearer ", "");
         const token = await adm.auth().verifyIdToken(p);
         if (token === null || token.email === null) {
@@ -30,7 +25,6 @@ export const answer = functions.https.onRequest(async (req, res) => {
         const svarParam = parseInt(req.query["svar"]);
         const svarRef = adm.firestore().collection("svar");
         const query = svarRef.where("luke", "==", lukeParam).where("hvem", "==", token.email);
-        console.log('her1');
 
         const pp = new Date(baseDate);
         pp.setTime(pp.getTime() + ((lukeParam - 1) * 24 * 60 * 60 * 1000));
@@ -41,7 +35,6 @@ export const answer = functions.https.onRequest(async (req, res) => {
         };
 
         const svar = await query.get();
-        console.log('her');
 
         if (svar.docs.length === 1) {
             const p2 = await svar.docs[0].data();
@@ -55,5 +48,3 @@ export const answer = functions.https.onRequest(async (req, res) => {
         }
     }
 });
-
-//app.use(cors);

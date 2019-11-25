@@ -21,8 +21,10 @@ export class Alternativ {
 const App: React.FC = props => {
   const [provider, setProvider] = useState<firebase.auth.GoogleAuthProvider>(new firebase.auth.GoogleAuthProvider());
   const [email, setEmail] = useState<string>('');
+  const [svar, setSvar] = useState<string>('');
   const [alt, setAlt] = useState<Array<Alternativ>>(new Array<Alternativ>());
   const [open, setOpen] = React.useState(false);
+  const [grattisOpen, setGrattisOpen] = React.useState(false);
   const [luke, setLuke] = React.useState<Luke>(new Luke(''));
   const [currentDay, setCurrentDay] = React.useState(0);
   const [answer, setAnswer] = React.useState<number>(0);
@@ -49,12 +51,18 @@ const App: React.FC = props => {
   const handleClose = () => {
     setOpen(false);
   };
+  const handleGrattisClose = () => {
+    setGrattisOpen(false);
+  };
+
+
   const handleSvar = async () => {
     setOpen(false);
     const user = firebase.auth().currentUser;
     if (user !== null) {
       var t = await user.getIdToken();
-      fetch(`http://localhost:5000/julekalender-4617e/us-central1/answer?luke=${currentDay}&svar=${answer}`,
+      //fetch(`http://localhost:5000/julekalender-4617e/us-central1/answer?luke=${currentDay}&svar=${answer}`,
+      fetch(`https://us-central1-julekalender-4617e.cloudfunctions.net/answer?luke=${currentDay}&svar=${answer}`,
         {
           method: 'GET',
           headers: {
@@ -70,6 +78,8 @@ const App: React.FC = props => {
             countdownApi.start();
           }
           else{
+            setSvar(data);
+            setGrattisOpen(true);
             console.log(data);
           }
         });
@@ -109,7 +119,7 @@ const App: React.FC = props => {
         const user = firebase.auth().currentUser;
         if (user !== null) {
           user.getIdToken(true).then(x => {
-            console.log(x);
+           // console.log(x);
           });
         }
       }
@@ -136,12 +146,14 @@ const App: React.FC = props => {
           <Grid container className={styles.toolbarButtons}>
             <Grid item></Grid>
             <Grid item>
+              <Card className={styles.signincard}>
               {email === '' &&
                 <Button variant="outlined" size="small" onClick={signIn}>sign in</Button>
               }
               {email !== '' &&
                 <div>{email}</div>
               }
+              </Card>
             </Grid>
           </Grid>
         </Toolbar>
@@ -150,7 +162,7 @@ const App: React.FC = props => {
             {days.map(i => {
               return (
                 <Card className={styles.day} key={i}>
-                  <Button onClick={() => handleClickOpen(i)} disabled={getDisabled(i)}>{i}</Button>
+                  <Button onClick={() => handleClickOpen(i)} disabled={getDisabled(i)}><span  className={styles.daybutton}>{i}</span></Button>
                 </Card>
               )
             })}
@@ -179,6 +191,9 @@ const App: React.FC = props => {
             Svar
           </Button>
         </DialogActions>
+      </Dialog>
+      <Dialog open={grattisOpen}  onClose={handleGrattisClose} aria-labelledby="form-dialog-title">
+        <DialogTitle>{svar}</DialogTitle>
       </Dialog>
     </div>
   );
