@@ -1,6 +1,6 @@
 {
     "victor1":{
-        "dag": "1",
+        "dag": 1,
         "hvem": "snarum@gmail.com",
         "spørsmål": "hvem er best?",
         "alternativer":{
@@ -19,119 +19,442 @@
         }
     },
     "victor2":{
-        "dag": "2",
+        "dag": 2,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     }
     ,
     "victor3":{
-        "dag": "3",
+        "dag": 3,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor4":{
-        "dag": "4",
+        "dag": 4,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor5":{
-        "dag": "5",
+        "dag": 5,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor6":{
-        "dag": "6",
+        "dag": 6,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor7":{
-        "dag": "7",
+        "dag": 7,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor8":{
-        "dag": "8",
+        "dag": 8,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor9":{
-        "dag": "9",
+        "dag": 9,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor10":{
-        "dag": "10",
+        "dag": 10,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor11":{
-        "dag": "11",
+        "dag": 11,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor12":{
-        "dag": "12",
+        "dag": 12,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor13":{
-        "dag": "13",
+        "dag": 13,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",        
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
+
     },
     "victor14":{
-        "dag": "14",
+        "dag": 14,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor15":{
-        "dag": "15",
+        "dag": 15,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor16":{
-        "dag": "16",
+        "dag": 16,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor17":{
-        "dag": "17",
+        "dag": 17,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor18":{
-        "dag": "18",
+        "dag": 18,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor19":{
-        "dag": "19",
+        "dag": 19,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor20":{
-        "dag": "20",
+        "dag": 20,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor21":{
-        "dag": "21",
+        "dag": 21,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor22":{
-        "dag": "22",
+        "dag": 22,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor23":{
-        "dag": "23",
+        "dag": 23,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     },
     "victor24":{
-        "dag": "24",
+        "dag": 24,
         "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?"
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
     }
 }
