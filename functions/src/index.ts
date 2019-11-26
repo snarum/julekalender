@@ -8,7 +8,7 @@ adm.initializeApp({
 });
 
 export const answer = functions.https.onRequest(async (req, res) => {
-    res.set('Access-Control-Allow-Origin', 'http://localhost:3000')
+    res.set('Access-Control-Allow-Origin', 'https://julekalender-4617e.firebaseapp.com')
     res.set('Access-Control-Allow-Headers', 'authorization,content-type')
     const a = req.headers.authorization;
     if (a === undefined || !a.startsWith("Bearer ")) {

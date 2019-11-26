@@ -169,7 +169,9 @@ const App: React.FC = props => {
           </Grid>
         </Grid>
         <div className={countdownDate <= 0 ? styles.hidden : ''}>
+          <Card className={styles.countdownmessage}>
           Feil, du må vente før du kan prøve på nytt - <Countdown ref={setRef} date={countdownDate} onComplete={timerComplete} />
+          </Card>
         </div>
       </Container>
       <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">

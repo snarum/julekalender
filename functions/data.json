@@ -1,0 +1,137 @@
+{
+    "victor1":{
+        "dag": "1",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?",
+        "alternativer":{
+            "1":{
+                "alternativ":"1",
+                "verdi": "per"
+            },
+            "2":{
+                "alternativ":"2",
+                "verdi": "ole"
+            },
+            "3":{
+                "alternativ":"3",
+                "verdi": "kari"
+            }
+        }
+    },
+    "victor2":{
+        "dag": "2",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    }
+    ,
+    "victor3":{
+        "dag": "3",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor4":{
+        "dag": "4",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor5":{
+        "dag": "5",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor6":{
+        "dag": "6",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor7":{
+        "dag": "7",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor8":{
+        "dag": "8",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor9":{
+        "dag": "9",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor10":{
+        "dag": "10",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor11":{
+        "dag": "11",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor12":{
+        "dag": "12",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor13":{
+        "dag": "13",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor14":{
+        "dag": "14",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor15":{
+        "dag": "15",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor16":{
+        "dag": "16",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor17":{
+        "dag": "17",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor18":{
+        "dag": "18",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor19":{
+        "dag": "19",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor20":{
+        "dag": "20",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor21":{
+        "dag": "21",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor22":{
+        "dag": "22",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor23":{
+        "dag": "23",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    },
+    "victor24":{
+        "dag": "24",
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "hvem er best?"
+    }
+}
