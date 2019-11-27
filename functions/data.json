@@ -1,243 +1,245 @@
 {
     "victor1":{
         "dag": 1,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hva er husnummeret til familien Simpsons?",
         "alternativer":{
-            "1":{ "alternativ":"1", "verdi": "per" },
-            "2":{ "alternativ":"2", "verdi": "ole" },
-            "3":{ "alternativ":"3", "verdi": "kari"}
+            "1":{ "alternativ":"1", "verdi": "724" },
+            "2":{ "alternativ":"2", "verdi": "472" },
+            "3":{ "alternativ":"3", "verdi": "742"}
         }
     },
     "victor2":{
         "dag": 2,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvor stor er norges minste kommune Oppegård?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "45 km^2" },
+            "2":{"alternativ":"2", "verdi": "450 km^2" },
+            "3":{"alternativ":"3", "verdi": "4500 km^2" }
         }
     }
     ,
     "victor3":{
         "dag": 3,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvor lang er en tennisbane?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "19,33m" },
+            "2":{"alternativ":"2", "verdi": "23,77m" },
+            "3":{"alternativ":"3", "verdi": "33,23m" }
         }
     },
     "victor4":{
         "dag": 4,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvor tung er en tennisball?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "58,5g" },
+            "2":{"alternativ":"2", "verdi": "50g" },
+            "3":{"alternativ":"3", "verdi": "93,3g" }
         }
     },
     "victor5":{
         "dag": 5,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvilken lengdeenhet tilsvarer 25,4 millimeter?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "Alen" },
+            "2":{"alternativ":"2", "verdi": "Fot" },
+            "3":{"alternativ":"3", "verdi": "Tomme" }
         }
     },
     "victor6":{
         "dag": 6,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hva heter vann på spansk?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "Au" },
+            "2":{"alternativ":"2", "verdi": "Aqua" },
+            "3":{"alternativ":"3", "verdi": "Agua" }
         }
     },
     "victor7":{
         "dag": 7,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvor stor andel av Norges areal er dekket av skog?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "37%" },
+            "2":{"alternativ":"2", "verdi": "3%" },
+            "3":{"alternativ":"3", "verdi": "23%" }
         }
     },
     "victor8":{
         "dag": 8,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvilken måleenhet tilsvarer omtrent 159 liter?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "Tønne" },
+            "2":{"alternativ":"2", "verdi": "Hektoliter" },
+            "3":{"alternativ":"3", "verdi": "Fat" }
         }
     },
     "victor9":{
         "dag": 9,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvor mange planeter er det i vårt solsystem?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "8" },
+            "2":{"alternativ":"2", "verdi": "7" },
+            "3":{"alternativ":"3", "verdi": "9" }
         }
     },
     "victor10":{
         "dag": 10,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hva heter verdens mest folkerike land uten kystlinje?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "Etiopia" },
+            "2":{"alternativ":"2", "verdi": "Indonesia" },
+            "3":{"alternativ":"3", "verdi": "Kasakstan" }
         }
     },
     "victor11":{
         "dag": 11,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvilken primatfamilie lever på Madagaskar?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "Pungrotte" },
+            "2":{"alternativ":"2", "verdi": "Lama" },
+            "3":{"alternativ":"3", "verdi": "Lemur" }
         }
     },
     "victor12":{
         "dag": 12,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvilken jernrik vekst heter kale på engelsk?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "Kålrabi" },
+            "2":{"alternativ":"2", "verdi": "Grønnkål" },
+            "3":{"alternativ":"3", "verdi": "Blomkål" }
         }
     },
     "victor13":{
         "dag": 13,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",        
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hva vil det si at noe beveger seg i 1 mach?",        
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "Lydens hastighet" },
+            "2":{"alternativ":"2", "verdi": "Lysets hastighet" },
+            "3":{"alternativ":"3", "verdi": "Fritt fall" }
         }
     },
     "victor14":{
         "dag": 14,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hva heter selskapet som i 2015 lanserte Vipps?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "Google" },
+            "2":{"alternativ":"2", "verdi": "Norwegian" },
+            "3":{"alternativ":"3", "verdi": "DNB" }
         }
     },
     "victor15":{
         "dag": 15,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvor høy var verdens høyeste registrerte sjiraff, George?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "5,8m" },
+            "2":{"alternativ":"2", "verdi": "7,3m" },
+            "3":{"alternativ":"3", "verdi": "10,2m" }
         }
     },
     "victor16":{
         "dag": 16,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvordan skrives 2020 med romertall?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "IIXXCCIIX" },
+            "2":{"alternativ":"2", "verdi": "XXCXX" },
+            "3":{"alternativ":"3", "verdi": "MMXX" }
         }
     },
     "victor17":{
         "dag": 17,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvor mange barn går i barnehage i Norge?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "280000" },
+            "2":{"alternativ":"2", "verdi": "380000" },
+            "3":{"alternativ":"3", "verdi": "180000" }
         }
     },
     "victor18":{
         "dag": 18,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvor mange elektroner kan det maksimalt være i det ytterste skallet I et atom?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "8" },
+            "2":{"alternativ":"2", "verdi": "2" },
+            "3":{"alternativ":"3", "verdi": "18" }
         }
     },
     "victor19":{
         "dag": 19,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hva heter det metallet som har høyest smeltepunkt og som er I glødetråden I en lyspære?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "Kobber" },
+            "2":{"alternativ":"2", "verdi": "Titan" },
+            "3":{"alternativ":"3", "verdi": "Wolfram" }
         }
     },
     "victor20":{
         "dag": 20,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "I hvilken tilstand er de aller fleste grunnstoffer?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "Fast form" },
+            "2":{"alternativ":"2", "verdi": "Væske" },
+            "3":{"alternativ":"3", "verdi": "Gass" }
         }
     },
     "victor21":{
         "dag": 21,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvilken egenskap er vanlig for et metall?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "Dårlig varmeleder" },
+            "2":{"alternativ":"2", "verdi": "Lavt smeltepunk" },
+            "3":{"alternativ":"3", "verdi": "God leder av elektrisk strøm" }
         }
     },
     "victor22":{
         "dag": 22,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hva bestemmer grunnstoffets plassering I periodesystemet?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "Antall protoner og antall elektroner i atomet" },
+            "2":{"alternativ":"2", "verdi": "Antall protoner i atomet og kjemiske egenskaper" },
+            "3":{"alternativ":"3", "verdi": "Antall protoner og antall nøytroner i atomet" }
         }
     },
     "victor23":{
         "dag": 23,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvilken konge falt i slaget på Stiklestad?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "Olav II (Haraldsson) den hellige" },
+            "2":{"alternativ":"2", "verdi": "Sigurd I Jorsalfare" },
+            "3":{"alternativ":"3", "verdi": "Harald Hårfagre" },
+            "4":{"alternativ":"4", "verdi": "Olav I Tryggvason" }
         }
     },
     "victor24":{
         "dag": 24,
-        "hvem": "snarum@gmail.com",
-        "spørsmål": "hvem er best?",
+        "hvem": "victor.garmann@gmail.com",
+        "spørsmål": "Hvem var Norges konge mellom år 1015 og 1028?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "per" },
-            "2":{"alternativ":"2", "verdi": "ole" },
-            "3":{"alternativ":"3", "verdi": "kari" }
+            "1":{"alternativ":"1", "verdi": "Harald Hårfagre" },
+            "2":{"alternativ":"2", "verdi": "Olav I Tryggvason" },
+            "3":{"alternativ":"3", "verdi": "Eirik Blodøks" },
+            "4":{"alternativ":"4", "verdi": "Olav II (Haraldsson) den hellige" }
         }
     }
 }
