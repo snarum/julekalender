@@ -1,4 +1,24 @@
 {
+    "eli1":{
+        "dag": 1,
+        "hvem": "eli.garmann@gmail.com",
+        "spørsmål": "Hva er husnummeret til familien Simpsons?",
+        "alternativer":{
+            "1":{ "alternativ":"1", "verdi": "724" },
+            "2":{ "alternativ":"2", "verdi": "472" },
+            "3":{ "alternativ":"3", "verdi": "742"}
+        }
+    },
+    "snorre1":{
+        "dag": 1,
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "Hva er husnummeret til familien Simpsons?",
+        "alternativer":{
+            "1":{ "alternativ":"1", "verdi": "724" },
+            "2":{ "alternativ":"2", "verdi": "472" },
+            "3":{ "alternativ":"3", "verdi": "742"}
+        }
+    },
     "victor1":{
         "dag": 1,
         "hvem": "victor.garmann@gmail.com",
@@ -240,6 +260,247 @@
             "2":{"alternativ":"2", "verdi": "Olav I Tryggvason" },
             "3":{"alternativ":"3", "verdi": "Eirik Blodøks" },
             "4":{"alternativ":"4", "verdi": "Olav II (Haraldsson) den hellige" }
+        }
+    },
+    "estevi1":{
+        "dag": 1,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hvor gammel var Billie Eilish når hun startet å skrive musikk?",
+        "alternativer":{
+            "1":{ "alternativ":"1", "verdi": "11" },
+            "2":{ "alternativ":"2", "verdi": "12" },
+            "3":{ "alternativ":"3", "verdi": "13"}
+        }
+    },
+    "estevi2":{
+        "dag": 2,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hva er Billie Eilish sin favorittfilm?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Pulp Fiction" },
+            "2":{"alternativ":"2", "verdi": "Fruitvale Station" },
+            "3":{"alternativ":"3", "verdi": "Monsters Inc" }
+        }
+    }
+    ,
+    "estevi3":{
+        "dag": 3,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hvor mange kg sukker spiste nordmenn I gjennomsnitt i 2018?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "24kg" },
+            "2":{"alternativ":"2", "verdi": "240kg" },
+            "3":{"alternativ":"3", "verdi": "2,4kg" }
+        }
+    },
+    "estevi4":{
+        "dag": 4,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hvilken planet er nærmest solen?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Merkur" },
+            "2":{"alternativ":"2", "verdi": "Mars" },
+            "3":{"alternativ":"3", "verdi": "Venus" }
+        }
+    },
+    "estevi5":{
+        "dag": 5,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hvilket redskap blir brukt til å se på stjernene?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Mikroskop" },
+            "2":{"alternativ":"2", "verdi": "Stetoskop" },
+            "3":{"alternativ":"3", "verdi": "Teleskop" }
+        }
+    },
+    "estevi6":{
+        "dag": 6,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hvilken farge er kobolt?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Blå" },
+            "2":{"alternativ":"2", "verdi": "Turkis" },
+            "3":{"alternativ":"3", "verdi": "Grønn" }
+        }
+    },
+    "estevi7":{
+        "dag": 7,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hva er verdens største øy?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Grønnland" },
+            "2":{"alternativ":"2", "verdi": "Svalbard" },
+            "3":{"alternativ":"3", "verdi": "Kolahalvøya" }
+        }
+    },
+    "estevi8":{
+        "dag": 8,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hva heter norges nest høyeste fjell",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Galdhøpiggen" },
+            "2":{"alternativ":"2", "verdi": "Glittertind" },
+            "3":{"alternativ":"3", "verdi": "Snøhetta" }
+        }
+    },
+    "estevi9":{
+        "dag": 9,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hvem oppfant den elektriske lyspæren?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Albert Einstein" },
+            "2":{"alternativ":"2", "verdi": "Thomas Edison" },
+            "3":{"alternativ":"3", "verdi": "Alfred Nobel" }
+        }
+    },
+    "estevi10":{
+        "dag": 10,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hvilket land er det største i verden?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Russland" },
+            "2":{"alternativ":"2", "verdi": "Kina" },
+            "3":{"alternativ":"3", "verdi": "Canada" }
+        }
+    },
+    "estevi11":{
+        "dag": 11,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "I hvilket land finner du Praha?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Slovenia" },
+            "2":{"alternativ":"2", "verdi": "Tjekkia" },
+            "3":{"alternativ":"3", "verdi": "Armenia" }
+        }
+    },
+    "estevi12":{
+        "dag": 12,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hvilken farge har giraffens tunge?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Rød" },
+            "2":{"alternativ":"2", "verdi": "Grå" },
+            "3":{"alternativ":"3", "verdi": "Svart" }
+        }
+    },
+    "estevi13":{
+        "dag": 13,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "I hvilket land ble Buddha født?",        
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "India" },
+            "2":{"alternativ":"2", "verdi": "Thailand" },
+            "3":{"alternativ":"3", "verdi": "Nepal" }
+        }
+    },
+    "estevi14":{
+        "dag": 14,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hva het Kong Haralds far?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Henrik" },
+            "2":{"alternativ":"2", "verdi": "Olav" },
+            "3":{"alternativ":"3", "verdi": "Håkon" }
+        }
+    },
+    "estevi15":{
+        "dag": 15,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "I hvilken by ble Anne Franks dagbok skrevet?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Amsterdam" },
+            "2":{"alternativ":"2", "verdi": "Berlin" },
+            "3":{"alternativ":"3", "verdi": "Krakov" }
+        }
+    },
+    "estevi16":{
+        "dag": 16,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hvor mange guder er det i buddhismen?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "1" },
+            "2":{"alternativ":"2", "verdi": "13" },
+            "3":{"alternativ":"3", "verdi": "0" }
+        }
+    },
+    "estevi17":{
+        "dag": 17,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hva heter den lengste elven i Norge?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Glomma" },
+            "2":{"alternativ":"2", "verdi": "Mjøsa" },
+            "3":{"alternativ":"3", "verdi": "Numedalslågen" }
+        }
+    },
+    "estevi18":{
+        "dag": 18,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "I hvilket skandinavisk land bor det flest mennesker?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Danmark" },
+            "2":{"alternativ":"2", "verdi": "Sverige" },
+            "3":{"alternativ":"3", "verdi": "Norge" }
+        }
+    },
+    "estevi19":{
+        "dag": 19,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hvilken sport drev Emil Hegle Svendsen med?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Skiskyting" },
+            "2":{"alternativ":"2", "verdi": "Langrenn" },
+            "3":{"alternativ":"3", "verdi": "Sykling" }
+        }
+    },
+    "estevi20":{
+        "dag": 20,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Fra hvilken by kommer Erna Solberg?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Stavanger" },
+            "2":{"alternativ":"2", "verdi": "Bergen" },
+            "3":{"alternativ":"3", "verdi": "Haugesund" }
+        }
+    },
+    "estevi21":{
+        "dag": 21,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "I hvilket år sluttet andre verdenskrig?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "1945" },
+            "2":{"alternativ":"2", "verdi": "1939" },
+            "3":{"alternativ":"3", "verdi": "1918" }
+        }
+    },
+    "estevi22":{
+        "dag": 22,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hva betyr uttrykket 'ugler I mosen'?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "At det lukter ille" },
+            "2":{"alternativ":"2", "verdi": "At noen har glemt en ugle under mosen" },
+            "3":{"alternativ":"3", "verdi": "At noe ikke stemmer" }
+        }
+    },
+    "estevi23":{
+        "dag": 23,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hva er navnet på det største havet?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Stillehavet" },
+            "2":{"alternativ":"2", "verdi": "Atlanterhavet" },
+            "3":{"alternativ":"3", "verdi": "Indiske hav" }
+        }
+    },
+    "estevi24":{
+        "dag": 24,
+        "hvem": "estevi.melsbo@gmail.com",
+        "spørsmål": "Hvilket fortballag kommer fra Trondheim?",
+        "alternativer":{
+            "1":{"alternativ":"1", "verdi": "Vålerrenga" },
+            "2":{"alternativ":"2", "verdi": "Mjøndalen" },
+            "3":{"alternativ":"3", "verdi": "Rosenborg" }
         }
     }
 }

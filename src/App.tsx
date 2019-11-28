@@ -34,7 +34,8 @@ const App: React.FC = props => {
   const baseDate = new Date(2019, 10, 21, 6, 0, 0);
 
   const handleClickOpen = async (day: number) => {
-    const luke = await firebase.firestore().collection("luker").where("dag", "==", day);
+    console.log('click')
+    const luke = await firebase.firestore().collection("luker").where("dag", "==", day).where("hvem","==",email);
     const snap = await luke.get();
 
     if (snap.docs.length !== 1)
@@ -74,7 +75,7 @@ const App: React.FC = props => {
       ).then(response => response.json())
         .then(data => {
           if (data === "") {
-            setCountdownDate(Date.now() + 10000);
+            setCountdownDate(Date.now() + 30000);
             countdownApi.start();
           }
           else{
