@@ -110,6 +110,7 @@ const App: React.FC = props => {
     return false;
   }
   const handleChange = (event: { target: { value: React.SetStateAction<string>; }; }) => {
+    console.log(parseInt(event.target.value.toString()));
     setAnswer(parseInt(event.target.value.toString()));
   };
   function signIn() {
@@ -181,11 +182,9 @@ const App: React.FC = props => {
           <DialogContentText>
             {luke.spørsmål}
           </DialogContentText>
-          <RadioGroup aria-label="gender" name="gender1" value={answer} onChange={handleChange}>
+          <RadioGroup aria-label="gender" name="alternatives" value={answer} onChange={handleChange}>
             {alt.map(i => {
-              return (
-                <FormControlLabel key={i.alternativ} value={i.alternativ} control={<Radio />} label={i.verdi} />
-              )
+              return (<FormControlLabel key={i.alternativ} value={i.alternativ} control={<Radio />} label={i.verdi} />)
             })}
           </RadioGroup>
         </DialogContent>

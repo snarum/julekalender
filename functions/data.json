@@ -4,9 +4,9 @@
         "hvem": "eli.garmann@gmail.com",
         "spørsmål": "Hva er husnummeret til familien Simpsons?",
         "alternativer":{
-            "1":{ "alternativ":"1", "verdi": "724" },
-            "2":{ "alternativ":"2", "verdi": "472" },
-            "3":{ "alternativ":"3", "verdi": "742"}
+            "1":{ "alternativ":1, "verdi": "724" },
+            "2":{ "alternativ":2, "verdi": "472" },
+            "3":{ "alternativ":3, "verdi": "742"}
         }
     },
     "snorre1":{
@@ -14,9 +14,19 @@
         "hvem": "snarum@gmail.com",
         "spørsmål": "Hva er husnummeret til familien Simpsons?",
         "alternativer":{
-            "1":{ "alternativ":"1", "verdi": "724" },
-            "2":{ "alternativ":"2", "verdi": "472" },
-            "3":{ "alternativ":"3", "verdi": "742"}
+            "1":{ "alternativ":1, "verdi": "724" },
+            "2":{ "alternativ":2, "verdi": "472" },
+            "3":{ "alternativ":3, "verdi": "742"}
+        }
+    },
+    "snorre2":{
+        "dag": 2,
+        "hvem": "snarum@gmail.com",
+        "spørsmål": "Hva er best?",
+        "alternativer":{
+            "1":{ "alternativ":1, "verdi": "fisk med dill" },
+            "2":{ "alternativ":2, "verdi": "472" },
+            "3":{ "alternativ":3, "verdi": "torsk med laksy"}
         }
     },
     "victor1":{
@@ -24,9 +34,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hva er husnummeret til familien Simpsons?",
         "alternativer":{
-            "1":{ "alternativ":"1", "verdi": "724" },
-            "2":{ "alternativ":"2", "verdi": "472" },
-            "3":{ "alternativ":"3", "verdi": "742"}
+            "1":{ "alternativ":1, "verdi": "724" },
+            "2":{ "alternativ":2, "verdi": "472" },
+            "3":{ "alternativ":3, "verdi": "742"}
         }
     },
     "victor2":{
@@ -34,9 +44,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvor stor er norges minste kommune Oppegård?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "45 km^2" },
-            "2":{"alternativ":"2", "verdi": "450 km^2" },
-            "3":{"alternativ":"3", "verdi": "4500 km^2" }
+            "1":{"alternativ":1, "verdi": "45 km^2" },
+            "2":{"alternativ":2, "verdi": "450 km^2" },
+            "3":{"alternativ":3, "verdi": "4500 km^2" }
         }
     }
     ,
@@ -45,9 +55,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvor lang er en tennisbane?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "19,33m" },
-            "2":{"alternativ":"2", "verdi": "23,77m" },
-            "3":{"alternativ":"3", "verdi": "33,23m" }
+            "1":{"alternativ":1, "verdi": "19,33m" },
+            "2":{"alternativ":2, "verdi": "23,77m" },
+            "3":{"alternativ":3, "verdi": "33,23m" }
         }
     },
     "victor4":{
@@ -55,9 +65,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvor tung er en tennisball?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "58,5g" },
-            "2":{"alternativ":"2", "verdi": "50g" },
-            "3":{"alternativ":"3", "verdi": "93,3g" }
+            "1":{"alternativ":1, "verdi": "58,5g" },
+            "2":{"alternativ":2, "verdi": "50g" },
+            "3":{"alternativ":3, "verdi": "93,3g" }
         }
     },
     "victor5":{
@@ -65,9 +75,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvilken lengdeenhet tilsvarer 25,4 millimeter?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Alen" },
-            "2":{"alternativ":"2", "verdi": "Fot" },
-            "3":{"alternativ":"3", "verdi": "Tomme" }
+            "1":{"alternativ":1, "verdi": "Alen" },
+            "2":{"alternativ":2, "verdi": "Fot" },
+            "3":{"alternativ":3, "verdi": "Tomme" }
         }
     },
     "victor6":{
@@ -75,9 +85,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hva heter vann på spansk?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Au" },
-            "2":{"alternativ":"2", "verdi": "Aqua" },
-            "3":{"alternativ":"3", "verdi": "Agua" }
+            "1":{"alternativ":1, "verdi": "Au" },
+            "2":{"alternativ":2, "verdi": "Aqua" },
+            "3":{"alternativ":3, "verdi": "Agua" }
         }
     },
     "victor7":{
@@ -85,9 +95,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvor stor andel av Norges areal er dekket av skog?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "37%" },
-            "2":{"alternativ":"2", "verdi": "3%" },
-            "3":{"alternativ":"3", "verdi": "23%" }
+            "1":{"alternativ":1, "verdi": "37%" },
+            "2":{"alternativ":2, "verdi": "3%" },
+            "3":{"alternativ":3, "verdi": "23%" }
         }
     },
     "victor8":{
@@ -95,9 +105,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvilken måleenhet tilsvarer omtrent 159 liter?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Tønne" },
-            "2":{"alternativ":"2", "verdi": "Hektoliter" },
-            "3":{"alternativ":"3", "verdi": "Fat" }
+            "1":{"alternativ":1, "verdi": "Tønne" },
+            "2":{"alternativ":2, "verdi": "Hektoliter" },
+            "3":{"alternativ":3, "verdi": "Fat" }
         }
     },
     "victor9":{
@@ -105,9 +115,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvor mange planeter er det i vårt solsystem?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "8" },
-            "2":{"alternativ":"2", "verdi": "7" },
-            "3":{"alternativ":"3", "verdi": "9" }
+            "1":{"alternativ":1, "verdi": "8" },
+            "2":{"alternativ":2, "verdi": "7" },
+            "3":{"alternativ":3, "verdi": "9" }
         }
     },
     "victor10":{
@@ -115,9 +125,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hva heter verdens mest folkerike land uten kystlinje?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Etiopia" },
-            "2":{"alternativ":"2", "verdi": "Indonesia" },
-            "3":{"alternativ":"3", "verdi": "Kasakstan" }
+            "1":{"alternativ":1, "verdi": "Etiopia" },
+            "2":{"alternativ":2, "verdi": "Indonesia" },
+            "3":{"alternativ":3, "verdi": "Kasakstan" }
         }
     },
     "victor11":{
@@ -125,9 +135,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvilken primatfamilie lever på Madagaskar?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Pungrotte" },
-            "2":{"alternativ":"2", "verdi": "Lama" },
-            "3":{"alternativ":"3", "verdi": "Lemur" }
+            "1":{"alternativ":1, "verdi": "Pungrotte" },
+            "2":{"alternativ":2, "verdi": "Lama" },
+            "3":{"alternativ":3, "verdi": "Lemur" }
         }
     },
     "victor12":{
@@ -135,9 +145,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvilken jernrik vekst heter kale på engelsk?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Kålrabi" },
-            "2":{"alternativ":"2", "verdi": "Grønnkål" },
-            "3":{"alternativ":"3", "verdi": "Blomkål" }
+            "1":{"alternativ":1, "verdi": "Kålrabi" },
+            "2":{"alternativ":2, "verdi": "Grønnkål" },
+            "3":{"alternativ":3, "verdi": "Blomkål" }
         }
     },
     "victor13":{
@@ -145,9 +155,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hva vil det si at noe beveger seg i 1 mach?",        
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Lydens hastighet" },
-            "2":{"alternativ":"2", "verdi": "Lysets hastighet" },
-            "3":{"alternativ":"3", "verdi": "Fritt fall" }
+            "1":{"alternativ":1, "verdi": "Lydens hastighet" },
+            "2":{"alternativ":2, "verdi": "Lysets hastighet" },
+            "3":{"alternativ":3, "verdi": "Fritt fall" }
         }
     },
     "victor14":{
@@ -155,9 +165,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hva heter selskapet som i 2015 lanserte Vipps?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Google" },
-            "2":{"alternativ":"2", "verdi": "Norwegian" },
-            "3":{"alternativ":"3", "verdi": "DNB" }
+            "1":{"alternativ":1, "verdi": "Google" },
+            "2":{"alternativ":2, "verdi": "Norwegian" },
+            "3":{"alternativ":3, "verdi": "DNB" }
         }
     },
     "victor15":{
@@ -165,9 +175,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvor høy var verdens høyeste registrerte sjiraff, George?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "5,8m" },
-            "2":{"alternativ":"2", "verdi": "7,3m" },
-            "3":{"alternativ":"3", "verdi": "10,2m" }
+            "1":{"alternativ":1, "verdi": "5,8m" },
+            "2":{"alternativ":2, "verdi": "7,3m" },
+            "3":{"alternativ":3, "verdi": "10,2m" }
         }
     },
     "victor16":{
@@ -175,9 +185,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvordan skrives 2020 med romertall?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "IIXXCCIIX" },
-            "2":{"alternativ":"2", "verdi": "XXCXX" },
-            "3":{"alternativ":"3", "verdi": "MMXX" }
+            "1":{"alternativ":1, "verdi": "IIXXCCIIX" },
+            "2":{"alternativ":2, "verdi": "XXCXX" },
+            "3":{"alternativ":3, "verdi": "MMXX" }
         }
     },
     "victor17":{
@@ -185,9 +195,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvor mange barn går i barnehage i Norge?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "280000" },
-            "2":{"alternativ":"2", "verdi": "380000" },
-            "3":{"alternativ":"3", "verdi": "180000" }
+            "1":{"alternativ":1, "verdi": "280000" },
+            "2":{"alternativ":2, "verdi": "380000" },
+            "3":{"alternativ":3, "verdi": "180000" }
         }
     },
     "victor18":{
@@ -195,9 +205,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvor mange elektroner kan det maksimalt være i det ytterste skallet I et atom?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "8" },
-            "2":{"alternativ":"2", "verdi": "2" },
-            "3":{"alternativ":"3", "verdi": "18" }
+            "1":{"alternativ":1, "verdi": "8" },
+            "2":{"alternativ":2, "verdi": "2" },
+            "3":{"alternativ":3, "verdi": "18" }
         }
     },
     "victor19":{
@@ -205,9 +215,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hva heter det metallet som har høyest smeltepunkt og som er I glødetråden I en lyspære?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Kobber" },
-            "2":{"alternativ":"2", "verdi": "Titan" },
-            "3":{"alternativ":"3", "verdi": "Wolfram" }
+            "1":{"alternativ":1, "verdi": "Kobber" },
+            "2":{"alternativ":2, "verdi": "Titan" },
+            "3":{"alternativ":3, "verdi": "Wolfram" }
         }
     },
     "victor20":{
@@ -215,9 +225,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "I hvilken tilstand er de aller fleste grunnstoffer?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Fast form" },
-            "2":{"alternativ":"2", "verdi": "Væske" },
-            "3":{"alternativ":"3", "verdi": "Gass" }
+            "1":{"alternativ":1, "verdi": "Fast form" },
+            "2":{"alternativ":2, "verdi": "Væske" },
+            "3":{"alternativ":3, "verdi": "Gass" }
         }
     },
     "victor21":{
@@ -225,9 +235,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvilken egenskap er vanlig for et metall?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Dårlig varmeleder" },
-            "2":{"alternativ":"2", "verdi": "Lavt smeltepunk" },
-            "3":{"alternativ":"3", "verdi": "God leder av elektrisk strøm" }
+            "1":{"alternativ":1, "verdi": "Dårlig varmeleder" },
+            "2":{"alternativ":2, "verdi": "Lavt smeltepunk" },
+            "3":{"alternativ":3, "verdi": "God leder av elektrisk strøm" }
         }
     },
     "victor22":{
@@ -235,9 +245,9 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hva bestemmer grunnstoffets plassering I periodesystemet?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Antall protoner og antall elektroner i atomet" },
-            "2":{"alternativ":"2", "verdi": "Antall protoner i atomet og kjemiske egenskaper" },
-            "3":{"alternativ":"3", "verdi": "Antall protoner og antall nøytroner i atomet" }
+            "1":{"alternativ":1, "verdi": "Antall protoner og antall elektroner i atomet" },
+            "2":{"alternativ":2, "verdi": "Antall protoner i atomet og kjemiske egenskaper" },
+            "3":{"alternativ":3, "verdi": "Antall protoner og antall nøytroner i atomet" }
         }
     },
     "victor23":{
@@ -245,10 +255,10 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvilken konge falt i slaget på Stiklestad?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Olav II (Haraldsson) den hellige" },
-            "2":{"alternativ":"2", "verdi": "Sigurd I Jorsalfare" },
-            "3":{"alternativ":"3", "verdi": "Harald Hårfagre" },
-            "4":{"alternativ":"4", "verdi": "Olav I Tryggvason" }
+            "1":{"alternativ":1, "verdi": "Olav II (Haraldsson) den hellige" },
+            "2":{"alternativ":2, "verdi": "Sigurd I Jorsalfare" },
+            "3":{"alternativ":3, "verdi": "Harald Hårfagre" },
+            "4":{"alternativ":4, "verdi": "Olav I Tryggvason" }
         }
     },
     "victor24":{
@@ -256,10 +266,10 @@
         "hvem": "victor.garmann@gmail.com",
         "spørsmål": "Hvem var Norges konge mellom år 1015 og 1028?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Harald Hårfagre" },
-            "2":{"alternativ":"2", "verdi": "Olav I Tryggvason" },
-            "3":{"alternativ":"3", "verdi": "Eirik Blodøks" },
-            "4":{"alternativ":"4", "verdi": "Olav II (Haraldsson) den hellige" }
+            "1":{"alternativ":1, "verdi": "Harald Hårfagre" },
+            "2":{"alternativ":2, "verdi": "Olav I Tryggvason" },
+            "3":{"alternativ":3, "verdi": "Eirik Blodøks" },
+            "4":{"alternativ":4, "verdi": "Olav II (Haraldsson) den hellige" }
         }
     },
     "estevi1":{
@@ -267,9 +277,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hvor gammel var Billie Eilish når hun startet å skrive musikk?",
         "alternativer":{
-            "1":{ "alternativ":"1", "verdi": "11" },
-            "2":{ "alternativ":"2", "verdi": "12" },
-            "3":{ "alternativ":"3", "verdi": "13"}
+            "1":{ "alternativ":1, "verdi": "11" },
+            "2":{ "alternativ":2, "verdi": "12" },
+            "3":{ "alternativ":3, "verdi": "13"}
         }
     },
     "estevi2":{
@@ -277,9 +287,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hva er Billie Eilish sin favorittfilm?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Pulp Fiction" },
-            "2":{"alternativ":"2", "verdi": "Fruitvale Station" },
-            "3":{"alternativ":"3", "verdi": "Monsters Inc" }
+            "1":{"alternativ":1, "verdi": "Pulp Fiction" },
+            "2":{"alternativ":2, "verdi": "Fruitvale Station" },
+            "3":{"alternativ":3, "verdi": "Monsters Inc" }
         }
     }
     ,
@@ -288,9 +298,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hvor mange kg sukker spiste nordmenn I gjennomsnitt i 2018?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "24kg" },
-            "2":{"alternativ":"2", "verdi": "240kg" },
-            "3":{"alternativ":"3", "verdi": "2,4kg" }
+            "1":{"alternativ":1, "verdi": "24kg" },
+            "2":{"alternativ":2, "verdi": "240kg" },
+            "3":{"alternativ":3, "verdi": "2,4kg" }
         }
     },
     "estevi4":{
@@ -298,9 +308,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hvilken planet er nærmest solen?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Merkur" },
-            "2":{"alternativ":"2", "verdi": "Mars" },
-            "3":{"alternativ":"3", "verdi": "Venus" }
+            "1":{"alternativ":1, "verdi": "Merkur" },
+            "2":{"alternativ":2, "verdi": "Mars" },
+            "3":{"alternativ":3, "verdi": "Venus" }
         }
     },
     "estevi5":{
@@ -308,9 +318,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hvilket redskap blir brukt til å se på stjernene?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Mikroskop" },
-            "2":{"alternativ":"2", "verdi": "Stetoskop" },
-            "3":{"alternativ":"3", "verdi": "Teleskop" }
+            "1":{"alternativ":1, "verdi": "Mikroskop" },
+            "2":{"alternativ":2, "verdi": "Stetoskop" },
+            "3":{"alternativ":3, "verdi": "Teleskop" }
         }
     },
     "estevi6":{
@@ -318,9 +328,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hvilken farge er kobolt?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Blå" },
-            "2":{"alternativ":"2", "verdi": "Turkis" },
-            "3":{"alternativ":"3", "verdi": "Grønn" }
+            "1":{"alternativ":1, "verdi": "Blå" },
+            "2":{"alternativ":2, "verdi": "Turkis" },
+            "3":{"alternativ":3, "verdi": "Grønn" }
         }
     },
     "estevi7":{
@@ -328,9 +338,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hva er verdens største øy?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Grønnland" },
-            "2":{"alternativ":"2", "verdi": "Svalbard" },
-            "3":{"alternativ":"3", "verdi": "Kolahalvøya" }
+            "1":{"alternativ":1, "verdi": "Grønnland" },
+            "2":{"alternativ":2, "verdi": "Svalbard" },
+            "3":{"alternativ":3, "verdi": "Kolahalvøya" }
         }
     },
     "estevi8":{
@@ -338,9 +348,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hva heter norges nest høyeste fjell",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Galdhøpiggen" },
-            "2":{"alternativ":"2", "verdi": "Glittertind" },
-            "3":{"alternativ":"3", "verdi": "Snøhetta" }
+            "1":{"alternativ":1, "verdi": "Galdhøpiggen" },
+            "2":{"alternativ":2, "verdi": "Glittertind" },
+            "3":{"alternativ":3, "verdi": "Snøhetta" }
         }
     },
     "estevi9":{
@@ -348,9 +358,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hvem oppfant den elektriske lyspæren?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Albert Einstein" },
-            "2":{"alternativ":"2", "verdi": "Thomas Edison" },
-            "3":{"alternativ":"3", "verdi": "Alfred Nobel" }
+            "1":{"alternativ":1, "verdi": "Albert Einstein" },
+            "2":{"alternativ":2, "verdi": "Thomas Edison" },
+            "3":{"alternativ":3, "verdi": "Alfred Nobel" }
         }
     },
     "estevi10":{
@@ -358,9 +368,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hvilket land er det største i verden?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Russland" },
-            "2":{"alternativ":"2", "verdi": "Kina" },
-            "3":{"alternativ":"3", "verdi": "Canada" }
+            "1":{"alternativ":1, "verdi": "Russland" },
+            "2":{"alternativ":2, "verdi": "Kina" },
+            "3":{"alternativ":3, "verdi": "Canada" }
         }
     },
     "estevi11":{
@@ -368,9 +378,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "I hvilket land finner du Praha?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Slovenia" },
-            "2":{"alternativ":"2", "verdi": "Tjekkia" },
-            "3":{"alternativ":"3", "verdi": "Armenia" }
+            "1":{"alternativ":1, "verdi": "Slovenia" },
+            "2":{"alternativ":2, "verdi": "Tjekkia" },
+            "3":{"alternativ":3, "verdi": "Armenia" }
         }
     },
     "estevi12":{
@@ -378,9 +388,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hvilken farge har giraffens tunge?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Rød" },
-            "2":{"alternativ":"2", "verdi": "Grå" },
-            "3":{"alternativ":"3", "verdi": "Svart" }
+            "1":{"alternativ":1, "verdi": "Rød" },
+            "2":{"alternativ":2, "verdi": "Grå" },
+            "3":{"alternativ":3, "verdi": "Svart" }
         }
     },
     "estevi13":{
@@ -388,9 +398,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "I hvilket land ble Buddha født?",        
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "India" },
-            "2":{"alternativ":"2", "verdi": "Thailand" },
-            "3":{"alternativ":"3", "verdi": "Nepal" }
+            "1":{"alternativ":1, "verdi": "India" },
+            "2":{"alternativ":2, "verdi": "Thailand" },
+            "3":{"alternativ":3, "verdi": "Nepal" }
         }
     },
     "estevi14":{
@@ -398,9 +408,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hva het Kong Haralds far?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Henrik" },
-            "2":{"alternativ":"2", "verdi": "Olav" },
-            "3":{"alternativ":"3", "verdi": "Håkon" }
+            "1":{"alternativ":1, "verdi": "Henrik" },
+            "2":{"alternativ":2, "verdi": "Olav" },
+            "3":{"alternativ":3, "verdi": "Håkon" }
         }
     },
     "estevi15":{
@@ -408,9 +418,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "I hvilken by ble Anne Franks dagbok skrevet?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Amsterdam" },
-            "2":{"alternativ":"2", "verdi": "Berlin" },
-            "3":{"alternativ":"3", "verdi": "Krakov" }
+            "1":{"alternativ":1, "verdi": "Amsterdam" },
+            "2":{"alternativ":2, "verdi": "Berlin" },
+            "3":{"alternativ":3, "verdi": "Krakov" }
         }
     },
     "estevi16":{
@@ -418,9 +428,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hvor mange guder er det i buddhismen?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "1" },
-            "2":{"alternativ":"2", "verdi": "13" },
-            "3":{"alternativ":"3", "verdi": "0" }
+            "1":{"alternativ":1, "verdi": "1" },
+            "2":{"alternativ":2, "verdi": "13" },
+            "3":{"alternativ":3, "verdi": "0" }
         }
     },
     "estevi17":{
@@ -428,9 +438,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hva heter den lengste elven i Norge?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Glomma" },
-            "2":{"alternativ":"2", "verdi": "Mjøsa" },
-            "3":{"alternativ":"3", "verdi": "Numedalslågen" }
+            "1":{"alternativ":1, "verdi": "Glomma" },
+            "2":{"alternativ":2, "verdi": "Mjøsa" },
+            "3":{"alternativ":3, "verdi": "Numedalslågen" }
         }
     },
     "estevi18":{
@@ -438,9 +448,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "I hvilket skandinavisk land bor det flest mennesker?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Danmark" },
-            "2":{"alternativ":"2", "verdi": "Sverige" },
-            "3":{"alternativ":"3", "verdi": "Norge" }
+            "1":{"alternativ":1, "verdi": "Danmark" },
+            "2":{"alternativ":2, "verdi": "Sverige" },
+            "3":{"alternativ":3, "verdi": "Norge" }
         }
     },
     "estevi19":{
@@ -448,9 +458,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hvilken sport drev Emil Hegle Svendsen med?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Skiskyting" },
-            "2":{"alternativ":"2", "verdi": "Langrenn" },
-            "3":{"alternativ":"3", "verdi": "Sykling" }
+            "1":{"alternativ":1, "verdi": "Skiskyting" },
+            "2":{"alternativ":2, "verdi": "Langrenn" },
+            "3":{"alternativ":3, "verdi": "Sykling" }
         }
     },
     "estevi20":{
@@ -458,9 +468,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Fra hvilken by kommer Erna Solberg?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Stavanger" },
-            "2":{"alternativ":"2", "verdi": "Bergen" },
-            "3":{"alternativ":"3", "verdi": "Haugesund" }
+            "1":{"alternativ":1, "verdi": "Stavanger" },
+            "2":{"alternativ":2, "verdi": "Bergen" },
+            "3":{"alternativ":3, "verdi": "Haugesund" }
         }
     },
     "estevi21":{
@@ -468,9 +478,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "I hvilket år sluttet andre verdenskrig?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "1945" },
-            "2":{"alternativ":"2", "verdi": "1939" },
-            "3":{"alternativ":"3", "verdi": "1918" }
+            "1":{"alternativ":1, "verdi": "1945" },
+            "2":{"alternativ":2, "verdi": "1939" },
+            "3":{"alternativ":3, "verdi": "1918" }
         }
     },
     "estevi22":{
@@ -478,9 +488,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hva betyr uttrykket 'ugler I mosen'?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "At det lukter ille" },
-            "2":{"alternativ":"2", "verdi": "At noen har glemt en ugle under mosen" },
-            "3":{"alternativ":"3", "verdi": "At noe ikke stemmer" }
+            "1":{"alternativ":1, "verdi": "At det lukter ille" },
+            "2":{"alternativ":2, "verdi": "At noen har glemt en ugle under mosen" },
+            "3":{"alternativ":3, "verdi": "At noe ikke stemmer" }
         }
     },
     "estevi23":{
@@ -488,9 +498,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hva er navnet på det største havet?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Stillehavet" },
-            "2":{"alternativ":"2", "verdi": "Atlanterhavet" },
-            "3":{"alternativ":"3", "verdi": "Indiske hav" }
+            "1":{"alternativ":1, "verdi": "Stillehavet" },
+            "2":{"alternativ":2, "verdi": "Atlanterhavet" },
+            "3":{"alternativ":3, "verdi": "Indiske hav" }
         }
     },
     "estevi24":{
@@ -498,9 +508,9 @@
         "hvem": "estevi.melsbo@gmail.com",
         "spørsmål": "Hvilket fortballag kommer fra Trondheim?",
         "alternativer":{
-            "1":{"alternativ":"1", "verdi": "Vålerrenga" },
-            "2":{"alternativ":"2", "verdi": "Mjøndalen" },
-            "3":{"alternativ":"3", "verdi": "Rosenborg" }
+            "1":{"alternativ":1, "verdi": "Vålerrenga" },
+            "2":{"alternativ":2, "verdi": "Mjøndalen" },
+            "3":{"alternativ":3, "verdi": "Rosenborg" }
         }
     }
 }
