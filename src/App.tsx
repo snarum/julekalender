@@ -31,7 +31,7 @@ const App: React.FC = props => {
   const [countdownApi, setCountdownApi] = React.useState<any>();
   const [countdownDate, setCountdownDate] = React.useState<number>(-1);
 
-  const baseDate = new Date(2019, 10, 21, 6, 0, 0);
+  const baseDate = new Date(2019, 11, 1, 6, 0, 0);
 
   const handleClickOpen = async (day: number) => {
     console.log('click')
