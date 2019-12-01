@@ -13,13 +13,13 @@
     },
     "victor1": {
         "hvem": "victor.garmann@gmail.com",
-        "hvor": "i garasjen",
+        "hvor": "vaskerommet",
         "luke": 1,
         "svar": 3
     },
     "victor2": {
         "hvem": "victor.garmann@gmail.com",
-        "hvor": "under bordet",
+        "hvor": "På vaskerommet",
         "luke": 2,
         "svar": 1
     },
@@ -163,7 +163,7 @@
     },
     "estevi2": {
         "hvem": "estevi.melsbo@gmail.com",
-        "hvor": "under bordet",
+        "hvor": "i peisen",
         "luke": 2,
         "svar": 2
     },
