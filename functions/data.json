@@ -285,7 +285,7 @@
     "estevi2":{
         "dag": 2,
         "hvem": "estevi.melsbo@gmail.com",
-        "spørsmål": "Hva er Billie Eilish sin favorittfilm?",
+        "spørsmål": "Hva er Billie Eilish sin favorittfiwlm?",
         "alternativer":{
             "1":{"alternativ":1, "verdi": "Pulp Fiction" },
             "2":{"alternativ":2, "verdi": "Fruitvale Station" },
